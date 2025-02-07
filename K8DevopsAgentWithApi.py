@@ -12,8 +12,12 @@ load_dotenv()
 # Get API key from environment variable
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
+#Groq API key
+groq_api_key = os.getenv("GROQ_API_KEY")
+
 # Initialize OpenAI client
 client = OpenAI(api_key=openai_api_key)
+#client = OpenAI(base_url="https://api.groq.com/openai/v1", api_key=groq_api_key) # If using Groq API
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -27,7 +31,8 @@ def get_k8s_command_from_llm(instruction):
     prompt = f"Generate the Kubernetes CLI command for the following instruction: '{instruction}'. NO PREAMBLE, NO MARKDOWN."
 
     response = client.chat.completions.create(
-        model="gpt-4-turbo",
+        model="gpt-4-turbo", # uncomment if using with OpenAI API
+        #model="llama-3.3-70b-versatile", # Uncomment if using with Groq API
         messages=[
             {"role": "system", "content": "You are a Kubernetes CLI expert."},
             {"role": "user", "content": prompt}
