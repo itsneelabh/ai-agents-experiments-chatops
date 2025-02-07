@@ -57,3 +57,26 @@ Body(raw/json) :
     "instruction": "Create a pod with image nginx"
 }
 ```
+
+Other examples of instructions:
+
+```
+{
+    "instruction": "Get the names of pods in all namespaces"
+}
+```
+```
+{
+    "instruction": "Create a deployment with name mydeploy from image nginx"
+}
+```
+```
+{
+    "instruction": "Scale up the deployment mydeploy to 3 pods"
+}
+```
+```
+{
+    "instruction": "Scale down the deployment mydeploy to 1 pod"
+}
+```
