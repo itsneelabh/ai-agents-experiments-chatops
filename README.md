@@ -13,7 +13,7 @@ relevant documentation references -
 1. Teams - https://docs.agno.com/agents/teams
 2. Python function - https://docs.agno.com/tools/functions
 
-As for tutorials, I found the one on `codebasics` channel quite useful - https://www.youtube.com/watch?v=EUey9L9sgzE&ab_channel=codebasics
+As for tutorials, I found this one quite useful - https://www.youtube.com/watch?v=EUey9L9sgzE&ab_channel=codebasics
 
 Do try it out and have fun!
 
