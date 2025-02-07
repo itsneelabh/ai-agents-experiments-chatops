@@ -1,6 +1,6 @@
 # AI Agents Experiments For ChatOps
 
-###Prerequisite
+### Prerequisite
 
 1. Local or Remote Kubernetes cluster setup. For local you can use Podman. More details [here](https://podman-desktop.io/blog/running-a-local-kubernetes-cluster-with-podman-desktop).
 
