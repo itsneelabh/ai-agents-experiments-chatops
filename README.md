@@ -10,7 +10,7 @@ comes to executing instruction that acts on the resources - creating pods, deplo
 
 I am using agno(formerly phidata) framework for creating the agents which I found simple to use. Here are couple of
 relevant documentation references -
-1. Teams - https://docs.agno.com/agents/teams
+1. Agents Team - https://docs.agno.com/agents/teams
 2. Python function - https://docs.agno.com/tools/functions
 
 As for tutorials, I found this one quite useful - https://www.youtube.com/watch?v=EUey9L9sgzE&ab_channel=codebasics
